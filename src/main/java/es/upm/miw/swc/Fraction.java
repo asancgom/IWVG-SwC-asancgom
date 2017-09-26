@@ -59,5 +59,9 @@ public class Fraction {
         value = f.numerator / f.denominator ;
         return value > (this.numerator / this.denominator);
     }
+    
+    public boolean isImPropia() {
+    		return this.getNumerator() > this.getDenominator();
+    }
 
 }
