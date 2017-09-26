@@ -30,4 +30,10 @@ public class FractionTest {
     public void testDecimal() {
         assertEquals(0.5, fraction.decimal(), 10e-5);
     }
+    
+    @Test
+    public void testisMayor() {
+        Fraction obj = new Fraction(2,2);
+        assertEquals(true,fraction.isMayor(obj));
+    }
 }
