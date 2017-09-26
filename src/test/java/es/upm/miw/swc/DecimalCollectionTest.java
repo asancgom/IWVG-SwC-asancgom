@@ -55,4 +55,9 @@ public class DecimalCollectionTest {
 		new DecimalCollection().higher();
 	}
 	
+	@Test
+	public void testMenor() {
+	    assertEquals(-1.0,this.decimalCollection.Menor(),10e-50);
+	}
+	
 }
