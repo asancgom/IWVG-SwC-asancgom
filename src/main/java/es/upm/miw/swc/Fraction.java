@@ -53,5 +53,11 @@ public class Fraction {
     public int getDenominator() {
         return denominator;
     }
+    
+    public boolean isMayor(Fraction f) {
+        double value;
+        value = f.numerator / f.denominator ;
+        return value > (this.numerator / this.denominator);
+    }
 
 }
