@@ -36,4 +36,11 @@ public class FractionTest {
         Fraction obj = new Fraction(2,2);
         assertEquals(true,fraction.isMayor(obj));
     }
+    
+    @Test
+    public void testisImPropia() {
+        Fraction obj = new Fraction(3,2);
+        assertEquals(false, fraction.isImPropia());
+        assertEquals(true, obj.isImPropia());
+    }
 }
