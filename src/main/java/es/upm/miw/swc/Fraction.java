@@ -65,7 +65,7 @@ public class Fraction {
     }
     
     public boolean isEquivalente(Fraction f) {
-        return (f.numerator / f.denominator) == (this.numerator / this.denominator);
+        return (double)(f.numerator / f.denominator) == (double)(this.numerator / this.denominator);
     }
 
 }
