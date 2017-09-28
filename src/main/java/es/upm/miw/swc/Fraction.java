@@ -57,7 +57,7 @@ public class Fraction {
     public boolean isMayor(Fraction f) {
         double value;
         value = f.numerator / f.denominator ;
-        return value > (this.numerator / this.denominator);
+        return (double)value > ((double)this.numerator / (double)this.denominator);
     }
     
     public boolean isImPropia() {
