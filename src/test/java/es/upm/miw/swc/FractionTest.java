@@ -43,4 +43,12 @@ public class FractionTest {
         assertEquals(false, fraction.isImPropia());
         assertEquals(true, obj.isImPropia());
     }
+    
+    
+    @Test
+    public void testIsEquivalente() {
+        Fraction obj = new Fraction(2,5);
+        assertEquals(true,fraction.isEquivalente(obj));
+    }
+
 }
