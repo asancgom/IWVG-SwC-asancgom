@@ -60,4 +60,14 @@ public class DecimalCollectionTest {
 	    assertEquals(-1.0,this.decimalCollection.Menor(),10e-50);
 	}
 	
+	   @Test
+	    public void testMeans() {
+	        assertEquals(1.5, this.decimalCollection.means(), 10e-5);
+	    }
+
+	    @Test
+	    public void testMeansExceptionIfEmpty() {
+	        exception.expect(ArithmeticException.class);
+	        new DecimalCollection().means();
+	    }
 }
