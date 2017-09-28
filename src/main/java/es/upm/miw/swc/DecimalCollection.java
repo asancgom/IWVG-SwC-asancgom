@@ -59,5 +59,10 @@ public class DecimalCollection {
         return lower;
         
     }
-
+    
+    public double means() {
+        assert collection != null;
+        return (double) (this.sum() / this.size());
+    }
+   
 }
