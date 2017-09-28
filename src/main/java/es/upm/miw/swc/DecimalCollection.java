@@ -62,7 +62,7 @@ public class DecimalCollection {
     
     public double means() {
         assert collection != null;
-        return (double) (this.sum() / this.size());
+        return (this.sum() / this.size());
     }
    
 }
