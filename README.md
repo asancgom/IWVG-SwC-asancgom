@@ -14,3 +14,7 @@ Este equipo lo formamos:
 - Carlos Blanco
 - Gabriel Muñumel
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/heads/release-1.0
